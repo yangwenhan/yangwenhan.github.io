@@ -6,14 +6,19 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" >
   <link rel="dns-prefetch" href="http://yoursite.com">
-  <title>Archives: 2017/9 | 清风徐来</title>
+  <title>JavaScript学习笔记（一） | 清风徐来</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta property="og:type" content="website">
-<meta property="og:title" content="清风徐来">
-<meta property="og:url" content="http://yoursite.com/archives/2017/09/index.html">
+  <meta name="description" content="1、简介JavaScript 是一种解释性语言，而不是编译型语言。计算机并不真正理解 JavaScript 。计算机需要解释 JavaScript 代码，将其转换成计算机能理解的机器码。 现在的浏览器制造商都以 ECMAScript 为标准。指定网页标准的组织是 World Wide Web Consortium （W3C）。 网站访问是因特网上特定计算机提供的一种专门服务，提供网站访问服务的计算">
+<meta name="keywords" content="JavaScript，笔记，自学">
+<meta property="og:type" content="article">
+<meta property="og:title" content="JavaScript学习笔记（一）">
+<meta property="og:url" content="http://yoursite.com/2017/09/26/my-first-blog/index.html">
 <meta property="og:site_name" content="清风徐来">
+<meta property="og:description" content="1、简介JavaScript 是一种解释性语言，而不是编译型语言。计算机并不真正理解 JavaScript 。计算机需要解释 JavaScript 代码，将其转换成计算机能理解的机器码。 现在的浏览器制造商都以 ECMAScript 为标准。指定网页标准的组织是 World Wide Web Consortium （W3C）。 网站访问是因特网上特定计算机提供的一种专门服务，提供网站访问服务的计算">
+<meta property="og:updated_time" content="2017-09-26T14:16:11.041Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="清风徐来">
+<meta name="twitter:title" content="JavaScript学习笔记（一）">
+<meta name="twitter:description" content="1、简介JavaScript 是一种解释性语言，而不是编译型语言。计算机并不真正理解 JavaScript 。计算机需要解释 JavaScript 代码，将其转换成计算机能理解的机器码。 现在的浏览器制造商都以 ECMAScript 为标准。指定网页标准的组织是 World Wide Web Consortium （W3C）。 网站访问是因特网上特定计算机提供的一种专门服务，提供网站访问服务的计算">
   
     <link rel="alternative" href="/atom.xml" title="清风徐来" type="application/atom+xml">
   
@@ -149,36 +154,65 @@
             <canvas data-colors="#eaeaea" data-sectionHeight="100" data-contentId="js-content" id="myCanvas1" class="anm-canvas"></canvas>
           </div>
           <div id="js-content" class="content-ll">
-            
-  
-  
+            <article id="post-my-first-blog" class="article article-type-post " itemscope itemprop="blogPost">
+  <div class="article-inner">
     
-    
-      
-      
-      <section class="archives-wrap">
-        <div class="archive-year-wrap">
-          <a href="/archives/2017" class="archive-year">2017</a>
-        </div>
-        <div class="archives">
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2017/09/26/my-first-blog/" class="archive-article-date">
-  	<time datetime="2017-09-26T13:46:13.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2017-09-26</time>
-</a>
-        </div>
-    	 
+      <header class="article-header">
+        
   
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2017/09/26/my-first-blog/">JavaScript学习笔记（一）</a>
+    <h1 class="article-title" itemprop="name">
+      JavaScript学习笔记（一）
     </h1>
   
 
-        <div class="article-info info-on-right">
-          
+        
+        <a href="/2017/09/26/my-first-blog/" class="archive-article-date">
+  	<time datetime="2017-09-26T13:46:13.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2017-09-26</time>
+</a>
+        
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h2 id="1、简介"><a href="#1、简介" class="headerlink" title="1、简介"></a>1、简介</h2><p>JavaScript 是一种解释性语言，而不是编译型语言。计算机并不真正理解 JavaScript 。计算机需要解释 JavaScript 代码，将其转换成计算机能理解的机器码。</p>
+<p>现在的浏览器制造商都以 ECMAScript 为标准。指定网页标准的组织是 World Wide Web Consortium （W3C）。</p>
+<p>网站访问是因特网上特定计算机提供的一种专门服务，提供网站访问服务的计算机称为 Web 服务器，运行 Web 浏览器并发出请求的称为客户机。通过超文本传输协议（HTTP）的专用通信协议将网页传输。</p>
+<p>Web服务器使用 IP 地址，是唯一标识，域名服务器可以将用户友好的名字转换为实际的 IP 地址，由网络服务提供商（ISP）建立。</p>
+<h2 id="2、使用"><a href="#2、使用" class="headerlink" title="2、使用"></a>2、使用</h2><p>使用<code>&lt;script /&gt;</code>标记来添加 JavaScript 代码。通常添加在<code>&lt;/body&gt;</code>标记之前。浏览器不会显示所包含的文本，而使用 JavaScript 引擎来运行代码的指令。</p>
+<p>链接外部 JavaScript 文件：<code>&lt;script src=&quot;MyJavaScriptFile.js&quot;&gt;&lt;/script&gt;</code></p>
+<p>当链接外部 JavaScript 文件时，不能在开标记和闭标记见放置任何代码，不能使用自闭语法。</p>
+<p>浏览器会缓存外部文件。</p>
+<p>JavaScript 对是否需要分号是要求很宽松，新起一行时，JavaScript 通常可以确定是否应开始一个新代码行。</p>
+<p>alert（）函数可以显示一个消息框，括号中指定消息，称为函数的参数</p>
+
+      
+
+      
+        <div class="page-reward">
+          <a href="javascript:;" class="page-reward-btn tooltip-top">
+            <div class="tooltip tooltip-east">
+            <span class="tooltip-item">
+              赏
+            </span>
+            <span class="tooltip-content">
+              <span class="tooltip-text">
+                <span class="tooltip-inner">
+                  <p class="reward-p"><i class="icon icon-quo-left"></i>谢谢你请我吃糖果<i class="icon icon-quo-right"></i></p>
+                  <div class="reward-box">
+                    
+                    
+                  </div>
+                </span>
+              </span>
+            </span>
+          </div>
+          </a>
+        </div>
+      
+    </div>
+    <div class="article-info article-info-index">
+      
+      
 	<div class="article-tag tagcloud">
 		<i class="icon-price-tags icon"></i>
 		<ul class="article-tag-list">
@@ -190,46 +224,106 @@
 		</ul>
 	</div>
 
-          
+      
 
+      
+
+      
+        
+<div class="share-btn share-icons tooltip-left">
+  <div class="tooltip tooltip-east">
+    <span class="tooltip-item">
+      <a href="javascript:;" class="share-sns share-outer">
+        <i class="icon icon-share"></i>
+      </a>
+    </span>
+    <span class="tooltip-content">
+      <div class="share-wrap">
+        <div class="share-icons">
+          <a class="weibo share-sns" href="javascript:;" data-type="weibo">
+            <i class="icon icon-weibo"></i>
+          </a>
+          <a class="weixin share-sns wxFab" href="javascript:;" data-type="weixin">
+            <i class="icon icon-weixin"></i>
+          </a>
+          <a class="qq share-sns" href="javascript:;" data-type="qq">
+            <i class="icon icon-qq"></i>
+          </a>
+          <a class="douban share-sns" href="javascript:;" data-type="douban">
+            <i class="icon icon-douban"></i>
+          </a>
+          <a class="qzone share-sns" href="javascript:;" data-type="qzone">
+            <i class="icon icon-qzone"></i>
+          </a>
+          <a class="facebook share-sns" href="javascript:;" data-type="facebook">
+            <i class="icon icon-facebook"></i>
+          </a>
+          <a class="twitter share-sns" href="javascript:;" data-type="twitter">
+            <i class="icon icon-twitter"></i>
+          </a>
+          <a class="google share-sns" href="javascript:;" data-type="google">
+            <i class="icon icon-google"></i>
+          </a>
         </div>
-        <div class="clearfix"></div>
-    </header>
+      </div>
+    </span>
+  </div>
+</div>
+
+<div class="page-modal wx-share js-wx-box">
+    <a class="close js-modal-close" href="javascript:;"><i class="icon icon-close"></i></a>
+    <p>扫一扫，分享到微信</p>
+    <div class="wx-qrcode">
+      <img src="http://s.jiathis.com/qrcode.php?url=http://yoursite.com/2017/09/26/my-first-blog/" alt="微信分享二维码">
+    </div>
+</div>
+
+<div class="mask js-mask"></div>
+      
+      <div class="clearfix"></div>
+    </div>
   </div>
 </article>
+
   
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2017/09/26/hello-world/" class="archive-article-date">
-  	<time datetime="2017-09-26T12:58:20.757Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2017-09-26</time>
-</a>
+<nav id="article-nav">
+  
+  
+    <a href="/2017/09/26/hello-world/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">Hello World</div>
+      <i class="icon-circle-right"></i>
+    </a>
+  
+</nav>
+
+
+<aside class="wrap-side-operation">
+    <div class="mod-side-operation">
+        
+        <div class="jump-container" id="js-jump-container" style="display:none;">
+            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
+                <i class="icon-font icon-back"></i>
+            </a>
+            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
+                <i class="icon-font icon-plane jump-plane"></i>
+            </div>
         </div>
-    	 
+        
+        
+    </div>
+</aside>
+
+
+
   
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2017/09/26/hello-world/">Hello World</a>
-    </h1>
+  
   
 
-        <div class="article-info info-on-right">
-          
-          
-
-        </div>
-        <div class="clearfix"></div>
-    </header>
-  </div>
-</article>
-  
-  
-    </div></section>
   
 
-    
+  
+
+  
 
 
           </div>
@@ -252,8 +346,8 @@
 	var yiliaConfig = {
 		mathjax: false,
 		isHome: false,
-		isPost: false,
-		isArchive: true,
+		isPost: true,
+		isArchive: false,
 		isTag: false,
 		isCategory: false,
 		open_in_new: false,
